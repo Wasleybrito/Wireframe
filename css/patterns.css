@@ -19,7 +19,7 @@ h1, h2, h3 {
     color: var(--white);
 }
 
-.btn-primary {         
+.btn-primary {
 
     font-family: 'Sora', sans-serif;
     display: inline-block;
@@ -31,7 +31,12 @@ h1, h2, h3 {
 
 }
 
-.menu-item {      
+.btn-primary:hover {
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+.menu-item {
 
     display: inline-block;
     background-color: var(--gray-colors-50);
@@ -40,5 +45,10 @@ h1, h2, h3 {
     line-height: 105%;
     letter-spacing: -0.01em;
     color: var(--gray-colors-400);
+    transition: all .3s;
+}
 
+.menu-item:hover {
+    background-color: #acb4bf;
+    color: var(--white);
 }
